@@ -13,10 +13,7 @@ Files
 -
 tictactoe.py – Core game logic, state handling, Minimax+α-β pruning, ai_move wrapper
 
-runner.py – CLI interface for human vs AI or AI vs AI, with board display and replay feature
-
-notebook.ipynb – Jupyter notebook version with in-depth explanations and demo
-
+runner.py – GUI interface for human vs AI or AI vs AI, with board display and replay feature
 
 Dependencies
 -
@@ -35,16 +32,9 @@ Choose game mode (1=You vs AI, 2=AI vs AI)
 
 Select symbol and difficulty
 
-Play the game in the terminal
+Play the game in the GUI
 
 Optionally replay the move sequence
-
-Notebook mode:
--
-1.	Open notebook.ipynb in Jupyter
-   
-2.	Run cells to explore code, play a quick demo, and review detailed explanation of Minimax and α-β pruning
-
 
 Project Overview
 -
@@ -54,13 +44,10 @@ Minimax with α-β pruning (minimax_ab): max_value and min_value functions imple
 
 ai_move(): selects actions based on difficulty level
 
-runner CLI: input validation, board printing, turn loop, replay for move analysis
 
 Outputs
 -
-Terminal display of the board
-
-AI thinking messages and chosen moves
+GUI display of the board
 
 End-of-game messages with emojis (win/lose/draw)
 
